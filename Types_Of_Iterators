@@ -1,0 +1,29 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main()
+{
+	vector<int> v1 = { 10, 20, 30, 40 };
+	for (vector<int>::iterator it = v1.begin(); it != v1.end(); ++it)
+		cout << *it << " ";
+	cout << endl;
+vector<int>::iterator it2 = v1.begin() + 3;
+	cout << *it2 << endl;
+	--it2;
+	cout << *it2 << endl;
+	++it2;
+	cout << *it2 << endl;
+	vector<int>::iterator iter = v1.begin();
+	iter++; 
+	vector<int>::iterator iter2 = v1.begin();
+	iter2++;
+	*iter2 = 200; 
+	vector<int>::iterator iter3 = v1.begin();
+	++iter3;
+	int n = *iter3; 
+	cout << n << endl;
+	for (auto iter4 = v1.begin(); iter4 != v1.end(); ++iter4)
+		cout << *iter4 << " ";
+	cout << endl;
+	return 0;
+}
