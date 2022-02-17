@@ -11,6 +11,9 @@ int main()
   v1.push_back(30);
   cout<<"vector v1 capacity:"<<v1.capacity<<endl;
   cout<<"vector v1 size:"<<v1.size<<endl;
+  cout<<"vector v1 size:"<<v1.size<<endl;
+  
+
   for(unsigned int i=0;i<v1.size();i++)
     cout<<v1[i]<<" ";
   cout<<endl;
