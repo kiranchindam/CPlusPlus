@@ -5,6 +5,7 @@ int main()
   vector<int> v1;
   cout<<"vector v1 capacity:"<<v1.capacity<<endl;
   cout<<"vector v1 size:"<<v1.size<<endl;
+  cout<<"vector v1 size:"<<v1.size<<endl;
   v1.push_back(10);
   v1.push_back(20);
   v1.push_back(30);
