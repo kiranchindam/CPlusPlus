@@ -21,6 +21,7 @@ int main()
   cout<<"vector v1 size:"<<v1.size<<endl;
   for(unsigned int i=0;i<v1.size();i++)
     cout<<v1[i]<<" ";
+	cout<<"hello";
   cout<<endl;
   return 0;
 }
